@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36594" started-at="2017-11-09T19:49:01Z" finished-at="2017-11-09T19:49:37Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest1" duration-ms="36594" started-at="2017-11-09T19:49:01Z" finished-at="2017-11-09T19:49:37Z">
+      <class name="automationFramework.MultiBrowser">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)" name="beforeTest" is-config="true" duration-ms="28326" started-at="2017-11-09T19:49:01Z" finished-at="2017-11-09T19:49:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome1]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="login()" name="login" duration-ms="6571" started-at="2017-11-09T19:49:29Z" finished-at="2017-11-09T19:49:36Z">
+        </test-method>
+        <test-method status="PASS" signature="afterTest()" name="afterTest" is-config="true" duration-ms="1685" started-at="2017-11-09T19:49:36Z" finished-at="2017-11-09T19:49:37Z">
+        </test-method>
+      </class>
+    </test>
+    <test name="ChromeTest" duration-ms="35967" started-at="2017-11-09T19:49:01Z" finished-at="2017-11-09T19:49:37Z">
+      <class name="automationFramework.MultiBrowser">
+        <test-method status="PASS" signature="beforeTest(java.lang.String)" name="beforeTest" is-config="true" duration-ms="28115" started-at="2017-11-09T19:49:01Z" finished-at="2017-11-09T19:49:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+        </test-method>
+        <test-method status="PASS" signature="login()" name="login" duration-ms="5874" started-at="2017-11-09T19:49:29Z" finished-at="2017-11-09T19:49:35Z">
+        </test-method>
+        <test-method status="PASS" signature="afterTest()" name="afterTest" is-config="true" duration-ms="1960" started-at="2017-11-09T19:49:35Z" finished-at="2017-11-09T19:49:37Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
