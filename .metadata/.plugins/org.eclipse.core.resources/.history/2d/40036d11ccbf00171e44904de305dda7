@@ -1,0 +1,3 @@
+com\cucumber\runner\ChromeRunner.class
+com\cucumber\example\SearchAmazonProducts.class
+com\cucumber\example\MavenTestClass.class

@@ -1,0 +1,16 @@
+package com.cucumber.runner;
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.testng.AbstractTestNGCucumberTests;
+ 
+//@RunWith(Cucumber.class)
+@CucumberOptions(strict = true
+		,features = {"src/test/resources/SearchAmazonProducts.feature"}
+		,plugin = {"pretty:STDOUT","html:D:\\Baskar\\Workspace\\TestData\\eclipse\\eclipse neon\\eclipse-jee-neon-2-win32-x86_64\\Workspace\\cucumber-pretty"}
+		,monochrome = true
+		,glue = {"com.cucumber.example"}
+		)
+public class ChromeRunner extends AbstractTestNGCucumberTests{
+
+
+}

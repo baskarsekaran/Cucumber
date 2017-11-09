@@ -1,0 +1,13 @@
+package com.cucumber.example;
+
+import org.junit.Test;
+
+public class JunitTestClass {
+	
+	@Test
+	public void print()
+	{
+		System.out.println("hi");
+	}
+
+}

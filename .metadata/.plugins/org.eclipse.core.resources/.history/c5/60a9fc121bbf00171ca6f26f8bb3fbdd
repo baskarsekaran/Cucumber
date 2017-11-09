@@ -1,0 +1,5 @@
+package com.cucumber.example;
+
+public class JunitTestClass {
+
+}

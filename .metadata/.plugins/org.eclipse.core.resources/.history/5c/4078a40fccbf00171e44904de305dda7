@@ -1,0 +1,13 @@
+<h2>Reporter output</h2><table><tr><td><div "featureFile">Feature File: src&#x2F;test&#x2F;resources&#x2F;SearchAmazonProducts.feature</div></td></tr>
+<tr><td><div "feature">Feature: Search mi note 4 mobile in amazon.es and add to whishlist</div></td></tr>
+<tr><td><div "scenarioOutline">Scenario Outline: Search products in amazon es and add to whishlist</div></td></tr>
+<tr><td><div "result">When  I enter amazon url (passed : 4s)</div></td></tr>
+<tr><td><div "scenario">Scenario Outline: Search products in amazon es and add to whishlist</div></td></tr>
+<tr><td><div "result">Then  I went to amazon home page (passed : 10s)</div></td></tr>
+<tr><td><div "result">When  Enter valid product name in the search area &lt;product&gt; (passed : 0s)</div></td></tr>
+<tr><td><div "result">Then  Click on search button (passed : 4s)</div></td></tr>
+<tr><td><div "result">Then  Sort products from low to high (passed : 1s)</div></td></tr>
+<tr><td><div "result">Then  Select product (failed : 4s)</div></td></tr>
+<tr><td><div "result">Then  Click Add to wish list (skipped)</div></td></tr>
+<tr><td><div "result">Given  I&#x27;ve a valid set of products to access amzon.es search page (skipped)</div></td></tr>
+</table>

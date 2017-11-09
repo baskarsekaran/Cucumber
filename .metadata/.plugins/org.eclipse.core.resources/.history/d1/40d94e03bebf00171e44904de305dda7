@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]" junit="true" parallel="classes">
+  <test name="Surefire test(failed)" junit="true" parallel="classes">
+    <classes>
+      <class name="com.cucumber.example.JunitTestClass">
+        <methods>
+          <include name="print"/>
+        </methods>
+      </class> <!-- com.cucumber.example.JunitTestClass -->
+      <class name="com.cucumber.example.JunitTest1Class">
+        <methods>
+          <include name="print1"/>
+        </methods>
+      </class> <!-- com.cucumber.example.JunitTest1Class -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

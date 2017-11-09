@@ -1,0 +1,29 @@
+#Author: baskar10576@gmail.com
+Feature: Search mi note 4 mobile in amazon.es and add to whishlist
+
+  #Datadriver testing using table
+  @Amazon
+  Scenario Outline: Search products in amazon es and add to whishlist # src/test/resources/SearchAmazonProducts.feature:9
+    When I enter amazon url
+    Then I went to amazon home page
+    When Enter valid product name in the search area <product>
+    Then Click on search button
+    Then Sort products from low to high
+    Then Select product
+    Then Click Add to wish list
+
+    Examples: 
+hi baskar
+
+  Background:                                                         # src/test/resources/SearchAmazonProducts.feature:4
+    Given I've a valid set of products to access amzon.es search page # SearchAmazonProducts.i_ve_a_valid_set_of_products_to_access_amzon_es_search_page()
+
+  @Amazon
+  Scenario Outline: Search products in amazon es and add to whishlist # src/test/resources/SearchAmazonProducts.feature:20
+    When I enter amazon url                                           # SearchAmazonProducts.i_enter_amazon_url()
+    Then I went to amazon home page                                   # SearchAmazonProducts.i_went_to_amazon_home_page()
+    When Enter valid product name in the search area mi note 4 mobile # SearchAmazonProducts.enter_valid_product_name_in_the_search_area_mi_note_mobile(String)
+    Then Click on search button                                       # SearchAmazonProducts.click_on_search_button()
+    Then Sort products from low to high                               # SearchAmazonProducts.sort_products()
+    Then Select product                                               # SearchAmazonProducts.select_product()
+    Then Click Add to wish list                                       # SearchAmazonProducts.click_Add_to_wish_list()

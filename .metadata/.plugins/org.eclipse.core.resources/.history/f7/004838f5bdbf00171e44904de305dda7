@@ -1,0 +1,17 @@
+package com.cucumber.example;
+
+import org.junit.Test;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class JunitTest1Class {
+
+	@Test
+	public void print1()
+	{
+		System.out.println("Hi cucumber maven");
+		System.setProperty("webdriver.chrome.driver", "D:/Baskar/Workspace/TestData/eclipse/workspace/WalletHub/lib/chromedriver.exe");
+		WebDriver driver = new ChromeDriver();;
+		driver.get("www.google.com");
+	}
+}
