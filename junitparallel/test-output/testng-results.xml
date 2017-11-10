@@ -1,41 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="2" passed="2">
+<testng-results skipped="1" failed="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="36594" started-at="2017-11-09T19:49:01Z" finished-at="2017-11-09T19:49:37Z">
+  <suite name="Default suite" duration-ms="29" started-at="2017-11-10T19:02:28Z" finished-at="2017-11-10T19:02:28Z">
     <groups>
     </groups>
-    <test name="ChromeTest1" duration-ms="36594" started-at="2017-11-09T19:49:01Z" finished-at="2017-11-09T19:49:37Z">
+    <test name="Default test" duration-ms="29" started-at="2017-11-10T19:02:28Z" finished-at="2017-11-10T19:02:28Z">
       <class name="automationFramework.MultiBrowser">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)" name="beforeTest" is-config="true" duration-ms="28326" started-at="2017-11-09T19:49:01Z" finished-at="2017-11-09T19:49:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome1]]>
-              </value>
-            </param>
-          </params>
+        <test-method status="FAIL" signature="beforeTest(java.lang.String)" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-11-10T19:02:28Z" finished-at="2017-11-10T19:02:28Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Configuration on method beforeTest
+but has not been marked @Optional or defined in C:\Users\616181\AppData\Local\Temp\testng-eclipse--470181478\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Configuration on method beforeTest
+but has not been marked @Optional or defined in C:\Users\616181\AppData\Local\Temp\testng-eclipse--470181478\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:144)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:342)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:78)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:190)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:130)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:173)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1178)
+	at org.testng.TestRunner.privateRun(TestRunner.java:757)
+	at org.testng.TestRunner.run(TestRunner.java:608)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1158)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1083)
+	at org.testng.TestNG.run(TestNG.java:999)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception>
         </test-method>
-        <test-method status="PASS" signature="login()" name="login" duration-ms="6571" started-at="2017-11-09T19:49:29Z" finished-at="2017-11-09T19:49:36Z">
+        <test-method status="SKIP" signature="login()" name="login" duration-ms="6" started-at="2017-11-10T19:02:28Z" finished-at="2017-11-10T19:02:28Z">
         </test-method>
-        <test-method status="PASS" signature="afterTest()" name="afterTest" is-config="true" duration-ms="1685" started-at="2017-11-09T19:49:36Z" finished-at="2017-11-09T19:49:37Z">
-        </test-method>
-      </class>
-    </test>
-    <test name="ChromeTest" duration-ms="35967" started-at="2017-11-09T19:49:01Z" finished-at="2017-11-09T19:49:37Z">
-      <class name="automationFramework.MultiBrowser">
-        <test-method status="PASS" signature="beforeTest(java.lang.String)" name="beforeTest" is-config="true" duration-ms="28115" started-at="2017-11-09T19:49:01Z" finished-at="2017-11-09T19:49:29Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-        </test-method>
-        <test-method status="PASS" signature="login()" name="login" duration-ms="5874" started-at="2017-11-09T19:49:29Z" finished-at="2017-11-09T19:49:35Z">
-        </test-method>
-        <test-method status="PASS" signature="afterTest()" name="afterTest" is-config="true" duration-ms="1960" started-at="2017-11-09T19:49:35Z" finished-at="2017-11-09T19:49:37Z">
+        <test-method status="SKIP" signature="afterTest()" name="afterTest" is-config="true" duration-ms="0" started-at="2017-11-10T19:02:28Z" finished-at="2017-11-10T19:02:28Z">
         </test-method>
       </class>
     </test>
